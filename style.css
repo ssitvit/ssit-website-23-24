@@ -255,6 +255,68 @@ body {
   margin-top: 30% !important;
   margin: auto;
 }
+
+#projects {
+  height: 690px;
+  background-image: url(./img/project-bg.png);
+  background-size: cover;
+  background-position: center !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.project-link:hover {
+  color: #dcdcdc;
+}
+
+.project-card {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2em;
+  border-radius: 2em;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(12px);
+  border: solid 2px transparent;
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  left: -100px;
+  -webkit-animation: slide 1s forwards;
+  -webkit-animation-delay: 3s;
+  animation: slide 1s forwards;
+  animation-delay: 3s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  transition: 0.5s ease;
+}
+
+.project-title {
+  color: #f1f1f1;
+  font-size: 2rem;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}
+
 /* 
   =================================
   --------- Media Query -----------
