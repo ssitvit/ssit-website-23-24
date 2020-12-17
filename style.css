@@ -256,6 +256,8 @@ body {
   margin: auto;
 }
 
+ /* Project section */
+
 #projects {
   height: 690px;
   background-image: url(./img/project-bg.png);
@@ -284,7 +286,7 @@ body {
 .project-card {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
-  padding: 2em;
+  padding: 1.8em;
   border-radius: 2em;
   position: relative;
   z-index: 1;
@@ -297,6 +299,7 @@ body {
   -webkit-animation-delay: 3s;
   animation: slide 1s forwards;
   animation-delay: 3s;
+  margin: 0.4em;
 }
 
 .project-card:hover {
@@ -307,6 +310,15 @@ body {
 .project-title {
   color: #f1f1f1;
   font-size: 2rem;
+}
+
+.comming-soon {
+  color: #dcdcdc;
+  opacity: 0.9;
+  font-family: Equinox, Epilogue;
+  font-size: 14px;
+  margin: 20% auto 0;
+  text-align: center;
 }
 
 @-webkit-keyframes slide {
