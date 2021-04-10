@@ -16,8 +16,8 @@
 
 <body>
 
-    <div class="home">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <div id="home" class="home">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-div">
 
             <a class="navbar-brand" href="#"><img class="ieeeLogo" src="./img/logo.png" alt="IEEE-SSIT logo" srcset=""
                     height="40px" width="100px"></a>
@@ -26,27 +26,27 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="collapse navbar-collapse " id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#aboutUs">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Leadership</a>
+                        <a class="nav-link" href="#events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#leadership">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
-                    </li>
+                    </li> -->
                     &nbsp;
                 </ul>
 
@@ -130,7 +130,7 @@
 
         <!-- Timeline -->
      
-        <div class="custom sectionHeading">Events and Workshops</div>
+        <div id="events" class="custom sectionHeading">Events and Workshops</div>
 
         <ul class="timeline">
         <li>
@@ -139,7 +139,7 @@
             </div>
             <div class="timeline-panel">
                 <div class="timeline-heading">
-                    <h4>HACK4CAUSE 3.0</h4>
+                    <h4>HACK 4 CAUSE 3.0</h4>
                 </div>
                 <div class="timeline-body">
                     <p>Hack4Cause is one of the prime events that is hosted by IEEE SSIT, where programmers, students and sometimes even professors get together for a short period of time to put their heads to create a project on one of the many domains this we provide to come on top this grand hackathon where over 1200 people come from all around to take away the crown of being the best. The participants work rapidly in a non-stop session; often working just on the power of caffeine without sleep or rest to achieve their task in the time frame of the 24 hours+ event. 
@@ -199,6 +199,22 @@
                 </div>
                 <div class="timeline-footer">
                     <p class="text-right">Feb-27-2014</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="timeline-badge">
+                <a><i class="fa fa-circle invert" id=""></i></a>
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>HACK 4 CAUSE 4.0 <small class="small">Comming soon</small></h4>
+                </div>
+                <div class="timeline-body">
+                    <p>Hack4Cause is one of the prime events that is hosted by IEEE SSIT, where programmers, students and sometimes even professors get together for a short period of time to put their heads to create a project on one of the many domains this we provide to come on top this grand hackathon where over 1200 people come from all around to take away the crown of being the best. The participants work rapidly in a non-stop session; often working just on the power of caffeine without sleep or rest to achieve their task in the time frame of the 24 hours+ event. </p>
+                </div>
+                <div class="timeline-footer">
+                    <p class="text-right">Apr-30-2021</p>
                 </div>
             </div>
         </li>
@@ -371,7 +387,28 @@
                     </div>
                 </div>
                 <br />
+            </div>
+        </div>
     </section>
+
+    <section class="team">
+        <div class="sectionHeading mb-4 sectionHeadingLight">Team</div>
+        <div class="sr-core">
+            <div class="student">Naman Jain</div>
+            <div class="student">Tanishi Gahtori</div>
+            <div class="student">Gunjan Raj Tiwari</div>
+            <div class="student">Jayant</div>
+            <div class="student">Pranav Kadambi</div>
+            <div class="student">Jiya Garg</div>
+            <div class="student">Amrasha Srivastava</div>
+            <div class="student">Utkarsh Singh</div>
+            <div class="student">Shaurya Kohli</div>
+            <div class="student">Nadeem Parvez</div>
+            <div class="student">Akshad Patel</div>
+            <div class="student">Harshvardhan</div>
+        </div>
+    </section>
+    
 
      <!-- Projects -->
 
@@ -388,6 +425,12 @@
                 <div class="project-card">
                     <h2 class="project-title">GitMash</h2>
                     <p class="project-info">View your Github score and compete with others.</p>
+                </div>
+            </a>
+            <a href="https://bindlebee.netlify.app/" class="project-link" target="blank">
+                <div class="project-card">
+                    <h2 class="project-title">BindleBee</h2>
+                    <p class="project-info">Website to showcase your products made for a sponsor.</p>
                 </div>
             </a>
         </div>
