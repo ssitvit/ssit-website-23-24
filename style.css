@@ -472,7 +472,7 @@ small {
     }
 
     .card-column {
-        width: 33.33%;
+        width: 25%;
     }
 }
 
@@ -531,7 +531,7 @@ small {
         margin-left: 0px;
     }
     .card-column {
-        width: 33.33%;
+        width: 25%;
     }
 }
 
@@ -754,7 +754,7 @@ p.footer {
         left: 28px;
     }
     .card-column {
-        width: 50%;
+        width: 100%;
     }
 }
 
