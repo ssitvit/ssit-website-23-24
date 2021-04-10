@@ -86,6 +86,21 @@ body {
 }
 
 .sr-core {
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.line {
+    margin: 2.5em auto;
+    width: 75%;
+    color: #eee;
+}
+
+.jr-core {
+    font-size: 1rem;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -94,7 +109,6 @@ body {
 
 .student {
     font-family: "Equinox", sans-serif;
-    font-size: 1.2rem;
     padding: 1em;
 }
 
@@ -456,6 +470,10 @@ small {
     .text-white {
         font-family: "Open Sans", sans-serif;
     }
+
+    .card-column {
+        width: 33.33%;
+    }
 }
 
 /* General Tablet Size */
@@ -496,6 +514,9 @@ small {
         margin-bottom: 0px;
         margin-left: 0px;
     }
+    .card-column {
+        width: 33.33%;
+    }
 }
 
 /* iPad Pro Screen */
@@ -508,6 +529,9 @@ small {
     .ieeeLogo {
         margin-bottom: 0px;
         margin-left: 0px;
+    }
+    .card-column {
+        width: 33.33%;
     }
 }
 
@@ -728,6 +752,9 @@ p.footer {
     }
     .timeline > li.timeline-inverted > .timeline-badge {
         left: 28px;
+    }
+    .card-column {
+        width: 50%;
     }
 }
 
