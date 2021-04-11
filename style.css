@@ -1,5 +1,5 @@
-body {
-    background-color: #eee;
+a {
+    text-decoration: none;
 }
 
 .nav-div {
@@ -308,13 +308,14 @@ small {
 /* Project section */
 
 #projects {
-    height: 690px;
+    height: fit-content;
+    object-fit: cover;
     background-image: url(./img/project-bg.png);
     background-size: cover;
     background-position: center !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;
+    padding-bottom: 3em;
 }
 
 .project-container {
@@ -330,6 +331,14 @@ small {
 
 .project-link:hover {
     color: #dcdcdc;
+}
+
+.project-group {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 1em;
+    font-family: Equinox, Epilogue;
 }
 
 .project-card {
