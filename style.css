@@ -5,10 +5,6 @@ a {
     text-decoration: none;
 }
 
-#icon{
-    width: 2px;
-}
-
 .nav-div {
     width: 1;
     background-color: rgba(0, 0, 0, 0.4);
@@ -389,7 +385,12 @@ small {
     margin: 0.4em;
 }
 
-.project-card-software,.project-card-hardware:hover {
+.project-card-software{
+    transform: scale(1.02);
+    transition: 0.5s ease;
+}
+
+.project-card-hardware:hover {
     transform: scale(1.02);
     transition: 0.5s ease;
 }
