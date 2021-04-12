@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 a {
     text-decoration: none;
 }
@@ -341,7 +344,7 @@ small {
     font-family: Equinox, Epilogue;
 }
 
-.project-card {
+.project-card-software {
     display: inline-block;
     width: 300px;
     background: rgba(255, 255, 255, 0.2);
@@ -361,7 +364,33 @@ small {
     margin: 0.4em;
 }
 
-.project-card:hover {
+.project-card-hardware {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1.8em;
+    border-radius: 0.5em;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(12px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    left: -100px;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 3s;
+    animation: slide 1s forwards;
+    animation-delay: 3s;
+    margin: 0.4em;
+}
+
+.project-card-software{
+    transform: scale(1.02);
+    transition: 0.5s ease;
+}
+
+.project-card-hardware:hover {
     transform: scale(1.02);
     transition: 0.5s ease;
 }
