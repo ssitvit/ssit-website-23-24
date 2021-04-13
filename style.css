@@ -385,7 +385,7 @@ small {
     margin: 0.4em;
 }
 
-.project-card-software{
+.project-card-software:hover {
     transform: scale(1.02);
     transition: 0.5s ease;
 }
