@@ -197,7 +197,19 @@ body {
 }
 
 
-/* Board section */
+/* Board and Faculty Organizer section */
+.facOrg {
+    margin-left: 100px;
+}
+
+.card-column-facOrg {
+    width: 25%;
+    margin-left: 30vw;
+    margin-bottom: 16px;
+    padding: 0 10px;
+    
+}
+
 .card-container {
     display: grid;
     grid-gap: 50px 50px;
