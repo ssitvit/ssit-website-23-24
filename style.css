@@ -196,6 +196,7 @@ body {
     color: #f4f4f4;
 }
 
+
 /* Board section */
 .card-container {
     display: grid;
@@ -419,6 +420,15 @@ small {
     100% {
         left: 0;
     }
+}
+
+.site-section {
+    padding: 30px;
+}
+
+.sub-title {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* 
