@@ -196,7 +196,20 @@ body {
     color: #f4f4f4;
 }
 
-/* Board section */
+
+/* Board and Faculty Organizer section */
+.facOrg {
+    margin-left: 100px;
+}
+
+.card-column-facOrg {
+    width: 25%;
+    margin-left: 30vw;
+    margin-bottom: 16px;
+    padding: 0 10px;
+    
+}
+
 .card-container {
     display: grid;
     grid-gap: 50px 50px;
@@ -419,6 +432,15 @@ small {
     100% {
         left: 0;
     }
+}
+
+.site-section {
+    padding: 30px;
+}
+
+.sub-title {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* 
