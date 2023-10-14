@@ -1,2 +1,3 @@
-# ssit-website-23-24
-Official IEEE SSIT VIT Website for 2023-24
+# IEEE-SSIT
+
+Official website for the - IEEE Society on Social Implications of Technology - VIT Student Chapter
